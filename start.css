@@ -1,0 +1,250 @@
+
+* {
+     margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+
+
+
+
+
+html, body { height: 100%; }
+
+
+
+
+body { 
+  font-family: Arial, sans-serif; 
+  background: #f8f7f4;
+  color: #2a2a2a;
+  line-height: 1.6;
+}
+
+
+
+
+img {
+     max-width: 100%; 
+     display: block;
+     }
+
+
+
+
+.navbar {
+  background: #2a2a2a;
+  padding: 1rem 1.5rem;
+}
+
+
+
+
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+
+
+.navbar a:hover { 
+    text-decoration: underline; 
+}
+
+.meyja {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+
+
+.meyja img {
+     margin: 1rem auto;
+     }
+
+
+
+.meyja h2 { 
+    font-size: 20px;
+     margin: 1.5rem 0 1rem;
+     }
+
+
+
+
+.meyja p { 
+    font-size: 14px; 
+    color: #555;
+ }
+
+
+
+
+.section1 {
+  padding: 2rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+
+
+
+.section1 h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 2rem;
+}
+
+
+
+
+.section1 img {
+     margin: 1.5rem 0; 
+    }
+
+
+
+
+.section1 h2 {
+     font-size: 18px; 
+     margin: 1rem 0 0.5rem; }
+
+
+
+
+.section1 ul {
+  list-style: none;
+  margin-bottom: 2rem;
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+
+.section1 li { 
+    margin: 0.5rem 0;
+ }
+
+
+.section1 {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+
+
+
+
+.section1 h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+
+
+
+
+
+.section1 img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+.section1 h2 {
+    background: #5c7abb;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+
+
+
+
+
+.section1 ul {
+    list-style: none;
+    padding: 15px;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+.section1 li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: center;
+}
+
+
+
+
+.section1 li:last-child {
+    border-bottom: none;
+}
+
+
+
+
+
+.section1 img:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+
+
+
+.footer{
+    background:#111; 
+    color:#fff; 
+    text-align:center; 
+    padding:20px; 
+    font-family:Arial;
+}
+
+
+
+
+
+@media(max-width:600px){
+    .section1 {
+        padding: 30px 15px;
+    }
+}
